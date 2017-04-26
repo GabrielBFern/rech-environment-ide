@@ -1,0 +1,92 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Rech",
+          "submenu": [
+            {
+              "label": "Compilar",
+              "command": "rech:compile"
+            },
+            {
+              "label": "Exibir/ocultar painel inferior",
+              "command": "rech:toggle-bottom-panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Abrir",
+      "submenu": [
+        {
+          "label": "Abrir fontes de consulta",
+          "command": "rech:abre-fontes-consulta"
+        },
+        {
+          "label": "Abrir fontes do WC",
+          "command": "rech:abre-fontes-wc"
+        },
+        {
+          "label": "Abrir BAT",
+          "command": "rech:abre-bat"
+        }
+      ]
+    },
+    {
+      "label": "Código fonte",
+      "submenu": [
+        {
+          "label": "Posicionar na declaração",
+          "command": "rech:cobol-posiciona-declaracao"
+        }
+      ]
+    },
+    {
+      "label": "Comentários",
+      "submenu": [
+        {
+          "label": "Insere linha com comentário",
+          "command": "rech:cobol-insere-linha-comentario"
+        }
+      ]
+    },
+    {
+      "label": "Compilação",
+      "submenu": [
+        {
+          "label": "Compilar",
+          "command": "rech:cobol-compile"
+        }
+      ]
+    },
+    {
+      "label": "Find",
+      "submenu": [
+        {
+          "label": "Fongrep",
+          "command": "rech:fongrep"
+        }
+      ]
+    },
+    {
+      "label": "Formatar",
+      "submenu": [
+        {
+          "label": "Identar",
+          "command": "rech:cobol-identa-bloco"
+        },
+        {
+          "label": "Identar para a esquerda",
+          "command": "rech:cobol-identa-bloco-esquerda"
+        },
+        {
+          "label": "Identar para a direita",
+          "command": "rech:cobol-identa-bloco-direita"
+        }
+      ]
+    }
+  ]
+}

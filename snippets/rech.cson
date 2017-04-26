@@ -1,0 +1,64 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.cobol':
+
+  'IF':
+     'prefix': 'IF'
+     'body': """
+     IF $1
+        $2
+     END-IF
+     """
+
+  'GREATER THAN':
+     'prefix': 'GR'
+     'body': 'IS GREATER THAN $1'
+
+#'.source.cobol':
+  'LESS THAN':
+     'prefix': 'LE'
+     'body': 'IS LESS THAN $1'
+
+#'.source.cobol':
+  'EQUAL TO':
+     'prefix': 'EQ'
+     'body': 'IS EQUAL TO $1'
+
+#'.source.cobol':
+  'NOT EQUAL TO':
+     'prefix': 'NQ'
+     'body': 'IS NOT EQUAL TO $1'
+
+#'.source.cobol':
+  'PERFORM':
+     'prefix': 'PE'
+     'body': 'PERFORM $1'
+
+#'.source.cobol':
+  'PERFORM UNTIL':
+     'prefix': 'PU'
+     'body': """
+     PERFORM                UNTIL EXIT
+        $1
+     END-PERFORM.$2
+     """

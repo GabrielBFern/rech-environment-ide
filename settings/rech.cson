@@ -1,0 +1,35 @@
+'.source.cobol':
+  editor:
+    tabLength: 3
+    preferredLineLength: 120
+    fileEncoding: "windows1252"
+
+'.source.js':
+  core:
+    fileEncoding: "utf8"
+
+'.source.css':
+  core:
+    fileEncoding: "utf8"
+
+'.text.html':
+  core:
+    fileEncoding: "utf8"
+
+'.source.json':
+  core:
+    fileEncoding: "utf8"
+
+'.source.coffee':
+  core:
+    fileEncoding: "utf8"
+
+'.source.md':
+  core:
+    fileEncoding: "utf8"
+
+'spell-check':
+  locales: [
+    'pt-BR'
+  ]
+  useLocales: true
