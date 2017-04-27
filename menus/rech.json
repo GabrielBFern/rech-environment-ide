@@ -32,6 +32,10 @@
         {
           "label": "Abrir BAT",
           "command": "rech:abre-bat"
+        },
+        {
+          "label": "Abrir sob o cursor",
+          "command": "rech:abre-cursor"
         }
       ]
     },

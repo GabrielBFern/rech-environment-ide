@@ -13,6 +13,7 @@
     "ctrl-shift-y": "rech:abre-bat"
     "ctrl-g": "rech:fongrep"
     "ctrl-m": "go-to-line:toggle"
+    "alt-f2": "rech:abre-cursor"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
   'atom-text-editor':
     'ctrl-up': 'nil'
