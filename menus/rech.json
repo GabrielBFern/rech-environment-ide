@@ -89,6 +89,14 @@
         {
           "label": "Fongrep",
           "command": "rech:fongrep"
+        },
+        {
+          "label": "Próxima linha em branco",
+          "command": "rech:posiciona-linha-branco-frente"
+        },
+        {
+          "label": "Linha em branco anterior",
+          "command": "rech:posiciona-linha-branco-tras"
         }
       ]
     },
