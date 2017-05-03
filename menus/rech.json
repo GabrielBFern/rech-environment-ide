@@ -53,7 +53,11 @@
       "submenu": [
         {
           "label": "Insere linha com comentário",
-          "command": "rech:cobol-insere-linha-comentario"
+          "command": "rech:insere-linha-comentario"
+        },
+        {
+          "label": "Insere comentário separador",
+          "command": "rech:insere-separador"
         }
       ]
     },
