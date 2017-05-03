@@ -15,6 +15,8 @@
     "ctrl-g": "rech:fongrep"
     "ctrl-m": "go-to-line:toggle"
     "alt-f2": "rech:abre-cursor"
+    "f10": "rech:copiar-linha"
+    "f11": "rech:colar-linha"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
   'atom-text-editor':
     'ctrl-up': 'nil'

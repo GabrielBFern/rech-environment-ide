@@ -71,6 +71,19 @@
       ]
     },
     {
+      "label": "Edit",
+      "submenu": [
+        {
+          "label": "Copiar linha",
+          "command": "rech:copiar-linha"
+        },
+        {
+          "label": "Colar linha",
+          "command": "rech:colar-linha"
+        }
+      ]
+    },
+    {
       "label": "Find",
       "submenu": [
         {

@@ -7,6 +7,17 @@ Esse diretório contém os diversos scrips desenvolvidos pela Rech para ser usado 
 Arquivo que contém scripts de busca, como por exemplo
 * Busca de declaração (F12)
 
+## comentarios.js
+
+Scripts para digitação e manipulação de comentários, como:
+* Insere comentários (Alt+N)
+* Insere separador (Alt+-)
+
+## clipboard.js
+
+Operações para manipular o clipboard
+* Copiar/colar linha (F10, F11)
+
 ## open.js
 
 Arquivo com scripts para abertura de fontes ou diretórios
