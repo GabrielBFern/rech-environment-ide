@@ -19,6 +19,12 @@
     "f11": "rech:colar-linha"
     "alt-p": "rech:posiciona-linha-branco-frente"
     "alt-[": "rech:posiciona-linha-branco-tras"
+    "ctrl-8": "rech:posiciona-area-a"
+    "ctrl-2": "rech:posiciona-area-b"
+    "ctrl-4": "rech:posiciona-coluna-a"
+    "ctrl-3": "rech:posiciona-coluna-b"
+    "ctrl-5": "rech:posiciona-coluna-c"
+    "ctrl-1": "rech:posiciona-coluna-value"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
   'atom-text-editor':
     'ctrl-up': 'nil'

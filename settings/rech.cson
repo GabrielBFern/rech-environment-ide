@@ -1,9 +1,11 @@
 '.source.cobol':
   editor:
-    tabLength: 3
+    tabLength: 1
     preferredLineLength: 120
     fileEncoding: "windows1252"
-
+    tabType: "soft"
+  core:
+    tabType: "soft"
 '.source.js':
   core:
     fileEncoding: "utf8"
@@ -27,9 +29,3 @@
 '.source.md':
   core:
     fileEncoding: "utf8"
-
-'spell-check':
-  locales: [
-    'pt-BR'
-  ]
-  useLocales: true
