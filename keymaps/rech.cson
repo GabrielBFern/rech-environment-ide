@@ -25,6 +25,8 @@
     "ctrl-3": "rech:posiciona-coluna-b"
     "ctrl-5": "rech:posiciona-coluna-c"
     "ctrl-1": "rech:posiciona-coluna-value"
+    "ctrl-0": "rech:seleciona-busca-frente"
+    "ctrl-9": "rech:seleciona-busca-tras"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
   'atom-text-editor':
     'ctrl-up': 'nil'

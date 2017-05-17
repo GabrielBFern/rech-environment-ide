@@ -1,0 +1,26 @@
+fileTypes: [
+  "cbl"
+  "cpy"
+  "cpb"
+]
+name: "COBOL (Rech)"
+patterns: [
+  {
+    match: "(^       [\\w\\-]+\\.$)"
+    name: "support.function.cobol"
+  }
+  {
+    match: "(?i:or)"
+    name: "support.verb.cobol"
+  }
+  {
+    captures:
+      "0":
+        name: "keyword.verb.cobol"
+      "1":
+        name: "support.function.cobol"
+    match: "(?i:perform|go\\s+to)\\s+([\\w]+\\-[\\w\\-]+)"
+  }
+  { include: "source.cobol" }
+]
+scopeName: "source.cobol.rech"
