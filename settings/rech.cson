@@ -29,3 +29,7 @@
 '.source.md':
   core:
     fileEncoding: "utf8"
+
+'.source.ts':
+  core:
+    fileEncoding: "utf8"
