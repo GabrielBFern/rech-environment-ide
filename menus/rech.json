@@ -49,6 +49,15 @@
       ]
     },
     {
+      "label": "Digitações",
+      "submenu": [
+        {
+          "label": "Digita \"...\" até o final da linha",
+          "command": "rech:pontos-ate-fim"
+        }
+      ]
+    },
+    {
       "label": "Comentários",
       "submenu": [
         {
