@@ -32,6 +32,7 @@
     "ctrl-shift-z": "rech:digita-zeros"
     "ctrl-shift-v": "rech:digita-low-values"
     "ctrl-shift-t": "rech:digita-to"
+    "alt-/": "rech:pontos-ate-fim"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
   'atom-text-editor':
     'ctrl-up': 'nil'
