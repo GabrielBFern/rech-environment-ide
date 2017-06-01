@@ -2,6 +2,11 @@
 
 Esse diretório contém os diversos scrips desenvolvidos pela Rech para ser usado pelo Atom.
 
+### Arquivos importantes
+
+* autocomplete-cobol\\gerador-cobol.js - Contem rotinas para geração / digitação de fontes Cobol
+* parser-cobol\\parser-cobol.js - Contem rotinas para interpretação / leitura de fontes Cobol
+
 ## busca.js
 
 Arquivo que contém scripts de busca, como por exemplo

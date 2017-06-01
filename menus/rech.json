@@ -67,6 +67,10 @@
         {
           "label": "Insere comentário separador",
           "command": "rech:insere-separador"
+        },
+        {
+          "label": "Puxa o comentário de um parágrafo/variável",
+          "command": "rech:puxa-comentario"
         }
       ]
     },

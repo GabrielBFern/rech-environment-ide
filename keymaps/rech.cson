@@ -1,6 +1,7 @@
   "atom-workspace":
     "ctrl-l": "rech:close-bottom-panel"
   "atom-workspace atom-text-editor, body":
+  # Scripts da Rech, ativos quando está no editor
     "ctrl-l": "rech:toggle-bottom-panel"
     "ctrl-p": "rech:cobol-identa-bloco"
     "alt-left": "rech:cobol-identa-bloco-esquerda"
@@ -33,6 +34,7 @@
     "ctrl-shift-v": "rech:digita-low-values"
     "ctrl-shift-t": "rech:digita-to"
     "alt-/": "rech:pontos-ate-fim"
+    "shift-alt-c": "rech:puxa-comentario"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
   'atom-text-editor':
     'ctrl-up': 'nil'
