@@ -93,6 +93,14 @@
         {
           "label": "Colar linha",
           "command": "rech:colar-linha"
+        },
+        {
+          "label": "Duplicar acima",
+          "command": "rech:duplicar-acima"
+        },
+        {
+          "label": "Duplicar abaixo",
+          "command": "rech:duplicar-abaixo"
         }
       ]
     },
@@ -110,6 +118,14 @@
         {
           "label": "Linha em branco anterior",
           "command": "rech:posiciona-linha-branco-tras"
+        },
+        {
+          "label": "Busca próximo parágrafo",
+          "command": "rech:busca-proximo-paragrafo"
+        },
+        {
+          "label": "Busca parágrafo anterior",
+          "command": "rech:busca-paragrafo-anterior"
         }
       ]
     },

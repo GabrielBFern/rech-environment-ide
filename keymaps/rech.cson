@@ -35,13 +35,21 @@
     "ctrl-shift-t": "rech:digita-to"
     "alt-/": "rech:pontos-ate-fim"
     "shift-alt-c": "rech:puxa-comentario"
+    "ctrl-k": "rech:busca-proximo-paragrafo"
+    "ctrl-shift-k": "rech:busca-paragrafo-anterior"
+    "ctrl-shift-pageup": "rech:duplica-acima"
+    "ctrl-shift-pagedown": "rech:duplica-abaixo"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
+  'atom-text-editor:not([mini])':
+    'ctrl-shift-k': "unset!"
+  '.platform-darwin atom-text-editor:not([mini])':
+    'ctrl-shift-k': "unset!"
   'atom-text-editor':
     'ctrl-up': 'nil'
     'ctrl-down': 'nil'
   #Move as linhas para baixo e para cima
-    'ctrl-alt-pageup': 'editor:move-line-up'
-    'ctrl-alt-pagedown': 'editor:move-line-down'
+    'ctrl-alt-pageup': 'unset!'
+    'ctrl-alt-pagedown': 'unset!'
   #Open Dialog
   #  'ctrl-shift-o': 'fuzzy-finder:toggle-file-finder'
   #Janela
@@ -55,3 +63,35 @@
   #Manipula??o de linha
     'ctrl-f12': 'editor:delete-line'
     'alt-=': 'editor:toggle-line-comments'
+  # Desabilita todos Ctrl+K * nativos do Atom
+  'body':
+      "ctrl-k up": "unset!"
+      "ctrl-k down": "unset!"
+      "ctrl-k left": "unset!"
+      "ctrl-k right": "unset!"
+      "ctrl-k ctrl-w": "unset!"
+      "ctrl-k alt-ctrl-w": "unset!"
+      "ctrl-k ctrl-p": "unset!"
+      "ctrl-k ctrl-n": "unset!"
+      "ctrl-k ctrl-up": "unset!"
+      "ctrl-k ctrl-down": "unset!"
+      "ctrl-k ctrl-left": "unset!"
+      "ctrl-k ctrl-right": "unset!"
+  'atom-workspace atom-text-editor':
+      "ctrl-k ctrl-u": "unset!"
+      "ctrl-k ctrl-l": "unset!"
+  "atom-workspace atom-text-editor:not([mini])":
+      "ctrl-k ctrl-0": "unset!",
+      "ctrl-k ctrl-1": "unset!",
+      "ctrl-k ctrl-2": "unset!",
+      "ctrl-k ctrl-3": "unset!",
+      "ctrl-k ctrl-4": "unset!",
+      "ctrl-k ctrl-5": "unset!",
+      "ctrl-k ctrl-6": "unset!",
+      "ctrl-k ctrl-7": "unset!",
+      "ctrl-k ctrl-8": "unset!",
+      "ctrl-k ctrl-9": "unset!"
+  '.platform-win32, .platform-linux':
+    'ctrl-k ctrl-b': 'unset!'
+  '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+    'ctrl-k ctrl-d': 'unset!'
