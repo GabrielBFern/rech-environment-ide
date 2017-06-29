@@ -34,27 +34,22 @@
      'prefix': 'GR'
      'body': 'IS GREATER THAN $1'
 
-#'.source.cobol':
   'LESS THAN':
      'prefix': 'LE'
      'body': 'IS LESS THAN $1'
 
-#'.source.cobol':
   'EQUAL TO':
      'prefix': 'EQ'
      'body': 'IS EQUAL TO $1'
 
-#'.source.cobol':
   'NOT EQUAL TO':
      'prefix': 'NQ'
      'body': 'IS NOT EQUAL TO $1'
 
-#'.source.cobol':
   'PERFORM':
      'prefix': 'PE'
      'body': 'PERFORM $1'
 
-#'.source.cobol':
   'PERFORM UNTIL':
      'prefix': 'PU'
      'body': """
@@ -62,9 +57,120 @@
         $1
      END-PERFORM.$2
      """
+<<<<<<< .mine
 
+  'ADD':
+    'prefix': 'AD'
+    'body': 'ADD $1 TO $2.'
+
+  'COMPUTE':
+    'prefix': 'CP'
+    'body': 'COMPUTE $1 = $2.'
+
+#
+  'Digita ADD | TO |':
+    'prefix': 'AD'
+    'body': 'ADD $1 TO $2'
+#
+  'Digita ADD 1 TO |':
+    'prefix': 'AD1'
+    'body': 'ADD 1 TO $2'
+#
+  'Digita SUBTRACT | TO |':
+    'prefix': 'SU'
+    'body': 'SUBTRACT $1 TO $2'
+#
+  'Digita SUBTRACT 1 TO |':
+    'prefix': 'SU1'
+    'body': 'SUBTRACT 1 TO $2'
+#
+  'Digita COMPUTE | = |':
+    'prefix': 'CP'
+    'body': 'COMPUTE $1 = $2'
+#
+  'Digita COMPUTE ROUNDED | = |':
+    'prefix': 'CR'
+    'body': 'COMPUTE ROUNDED $1 = $2'
+#
+  'Digita ELSE,':
+    'prefix': 'EL'
+    'body': 'ELSE,'
+#
+  'Digita EXIT PERFORM CYCLE':
+    'prefix': 'XC'
+    'body': 'EXIT PERFORM CYCLE'
+#
+  'Digita EXIT PERFORM':
+    'prefix': 'XP'
+    'body': 'EXIT PERFORM'
+#
+  'Digita VALUE IS':
+    'prefix': 'VL'
+    'body': 'VALUE IS'
+#
+  'Digita INITIALIZE':
+    'prefix': 'IN'
+    'body': 'INITIALIZE'
+#
+  'Digita ZEROS':
+    'prefix': 'ZE'
+    'body': 'ZEROS'
+#
+  'Digita SPACES':
+    'prefix': 'SP'
+    'body': 'SPACES'
+#
+  'Digita MOVE | TO |':
+    'prefix': 'MV'
+    'body': 'MOVE $1 TO $2'
+#
+  'Digita LOW-VALUES':
+    'prefix': 'LV'
+    'body': 'LOW-VALUES'
+#
+  'Digita | IS EQUAL TO |':
+    'prefix': 'EQ'
+    'body': '$1 IS EQUAL TO $2'
+#
+  'Digita | IS NOT EQUAL TO |':
+    'prefix': 'NQ'
+    'body': '$1 IS NOT EQUAL TO $2'
+#
+  'Digita | IS GREATER THAN |':
+    'prefix': 'GT'
+    'body': '$1 IS GREATER THAN $2'
+#
+  'Digita | IS LESS THAN |':
+    'prefix': 'LE'
+    'body': '$1 IS LESS THAN $2'
+#
+  'Digita EVALUATE':
+    'prefix': 'EV'
+    'body': """
+             EVALUATE   $1,
+                WHEN $2
+             END-EVALUATE.
+            """
+#
+  'Digita PERFORM UNTIL EXIT':
+    'prefix': 'PU'
+    'body': """
+            PERFORM UNTIL EXIT
+                $1
+            END-PERFORM.
+            """
+#
+  'Digita PERFORM VARYING':
+     'prefix': 'PB'
+     'body': """
+     PERFORM                WITH TEST BEFORE
+        VARYING             $1 FROM $2 BY $3
+           UNTIL            $4
+        $5
+     END-PERFORM.$6
+     """
 #'.source.cobol':
-  'PERFORM VARYING':
+  'Digita PERFORM VARYING':
      'prefix': 'PB'
      'body': """
      PERFORM                WITH TEST BEFORE
@@ -75,7 +181,7 @@
      """
 
 #'.source.cobol':
-  'EXIT PARAGRAPH':
+  'Digita EXIT PARAGRAPH':
      'prefix': 'XH'
      'body': """
      EXIT PARAGRAPH$1
