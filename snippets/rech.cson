@@ -65,83 +65,83 @@
     'prefix': 'CP'
     'body': 'COMPUTE $1 = $2.'
 
-  'Digita ADD | TO |':
+  'ADD TO':
     'prefix': 'AD'
     'body': 'ADD $1 TO $2'
 
-  'Digita ADD 1 TO |':
+  'ADD 1 TO':
     'prefix': 'AD1'
     'body': 'ADD 1 TO $2'
 
-  'Digita SUBTRACT | TO |':
+  'SUBTRACT TO':
     'prefix': 'SU'
     'body': 'SUBTRACT $1 TO $2'
 
-  'Digita SUBTRACT 1 TO |':
+  'SUBTRACT 1 TO':
     'prefix': 'SU1'
     'body': 'SUBTRACT 1 TO $2'
 
-  'Digita COMPUTE | = |':
+  'COMPUTE =':
     'prefix': 'CP'
     'body': 'COMPUTE $1 = $2'
 
-  'Digita COMPUTE ROUNDED | = |':
+  'COMPUTE ROUNDED =':
     'prefix': 'CR'
     'body': 'COMPUTE ROUNDED $1 = $2'
 
-  'Digita ELSE,':
+  'ELSE,':
     'prefix': 'EL'
     'body': 'ELSE,'
 
-  'Digita EXIT PERFORM CYCLE':
+  'EXIT PERFORM CYCLE':
     'prefix': 'XC'
     'body': 'EXIT PERFORM CYCLE'
 
-  'Digita EXIT PERFORM':
+  'EXIT PERFORM':
     'prefix': 'XP'
     'body': 'EXIT PERFORM'
 
-  'Digita VALUE IS':
+  'VALUE IS':
     'prefix': 'VL'
     'body': 'VALUE IS'
 
-  'Digita INITIALIZE':
+  'INITIALIZE':
     'prefix': 'IN'
     'body': 'INITIALIZE'
 
-  'Digita ZEROS':
+  'ZEROS':
     'prefix': 'ZE'
     'body': 'ZEROS'
 
-  'Digita SPACES':
+  'SPACES':
     'prefix': 'SP'
     'body': 'SPACES'
 
-  'Digita MOVE | TO |':
+  'MOVE TO':
     'prefix': 'MV'
     'body': 'MOVE $1 TO $2'
 
-  'Digita LOW-VALUES':
+  'LOW-VALUES':
     'prefix': 'LV'
     'body': 'LOW-VALUES'
 
-  'Digita | IS EQUAL TO |':
+  'IS EQUAL TO':
     'prefix': 'EQ'
     'body': '$1 IS EQUAL TO $2'
 
-  'Digita | IS NOT EQUAL TO |':
+  'IS NOT EQUAL TO':
     'prefix': 'NQ'
     'body': '$1 IS NOT EQUAL TO $2'
 
-  'Digita | IS GREATER THAN |':
+  'IS GREATER THAN':
     'prefix': 'GT'
     'body': '$1 IS GREATER THAN $2'
 
-  'Digita | IS LESS THAN |':
+  'IS LESS THAN':
     'prefix': 'LE'
     'body': '$1 IS LESS THAN $2'
 
-  'Digita EVALUATE':
+  'EVALUATE':
     'prefix': 'EV'
     'body': """
              EVALUATE   $1,
@@ -149,7 +149,7 @@
              END-EVALUATE.
             """
 
-  'Digita PERFORM UNTIL EXIT':
+  'PERFORM UNTIL EXIT':
     'prefix': 'PU'
     'body': """
             PERFORM UNTIL EXIT
@@ -157,7 +157,7 @@
             END-PERFORM.
             """
 
-  'Digita PERFORM VARYING':
+  'PERFORM VARYING':
      'prefix': 'PB'
      'body': """
      PERFORM                WITH TEST BEFORE
@@ -167,7 +167,7 @@
      END-PERFORM.$6
      """
 
-  'Digita PERFORM VARYING':
+  'PERFORM VARYING':
      'prefix': 'PB'
      'body': """
      PERFORM                WITH TEST BEFORE
@@ -177,7 +177,7 @@
      END-PERFORM.$6
      """
 
-  'Digita EXIT PARAGRAPH':
+  'EXIT PARAGRAPH':
      'prefix': 'XH'
      'body': """
      EXIT PARAGRAPH$1
