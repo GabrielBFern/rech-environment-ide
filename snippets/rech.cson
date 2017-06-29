@@ -62,3 +62,21 @@
         $1
      END-PERFORM.$2
      """
+
+#'.source.cobol':
+  'PERFORM VARYING':
+     'prefix': 'PB'
+     'body': """
+     PERFORM                WITH TEST BEFORE
+        VARYING             $1 FROM $2 BY $3
+           UNTIL            $4
+        $5
+     END-PERFORM.$6
+     """
+
+#'.source.cobol':
+  'EXIT PARAGRAPH':
+     'prefix': 'XH'
+     'body': """
+     EXIT PARAGRAPH$1
+     """
