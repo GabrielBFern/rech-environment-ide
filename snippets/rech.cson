@@ -57,8 +57,6 @@
         $1
      END-PERFORM.$2
      """
-<<<<<<< .mine
-
   'ADD':
     'prefix': 'AD'
     'body': 'ADD $1 TO $2.'
