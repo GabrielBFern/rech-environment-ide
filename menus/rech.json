@@ -8,7 +8,7 @@
           "submenu": [
             {
               "label": "Compilar",
-              "command": "rech:compile"
+              "command": "rech:cobol-compile"
             },
             {
               "label": "Exibir/ocultar painel inferior",
