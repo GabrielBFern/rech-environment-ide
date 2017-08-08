@@ -20,7 +20,7 @@
     "rech-open-this": "^0.3.0"
   },
   "package-deps": [
-    "linter"
+    "rech-open-this"
   ],
   "providedServices": {
     "linter": {
