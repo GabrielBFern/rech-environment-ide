@@ -17,7 +17,7 @@
     "react": "^15.3.1",
     "react-dom": "^15.3.2",
     "react-resizable-box": "^1.8.1",
-    "rech-open-this": "git+https://github.com/RechInformatica/rech-open-this.git"
+    "rech-open-this": "^0.3.0"
   },
   "package-deps": [
     "linter"
