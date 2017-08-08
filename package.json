@@ -3,8 +3,7 @@
   "main": "./lib/rech",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/atom/rech",
   "license": "MIT",
   "engines": {
@@ -14,10 +13,11 @@
     "atom-linter": "^4.1.1",
     "atom-package-deps": "^3.0.5",
     "iconv-lite": "^0.4.15",
+    "moment": "^2.18.1",
     "react": "^15.3.1",
     "react-dom": "^15.3.2",
     "react-resizable-box": "^1.8.1",
-    "moment": "^2.18.1"
+    "rech-open-this": "git+https://github.com/RechInformatica/rech-open-this.git"
   },
   "package-deps": [
     "linter"
@@ -26,6 +26,11 @@
     "linter": {
       "versions": {
         "1.0.0": "provideLinter"
+      }
+    },
+    "rech-open-this.service": {
+      "versions": {
+        "1.0.0": "providePathRechOpenThis"
       }
     },
     "autocomplete.provider": {

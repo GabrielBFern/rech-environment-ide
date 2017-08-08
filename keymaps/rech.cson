@@ -15,7 +15,7 @@
     "ctrl-shift-y": "rech:abre-bat"
     "ctrl-g": "rech:fongrep"
     "ctrl-m": "go-to-line:toggle"
-    "alt-f2": "rech:abre-cursor"
+    "alt-f2": "rech-open-this:same-pane"
     "f10": "rech:copiar-linha"
     "f11": "rech:colar-linha"
     "alt-p": "rech:posiciona-linha-branco-frente"
