@@ -1,10 +1,10 @@
 {
-  "name": "rech",
+  "name": "rech-environment-ide",
   "main": "./lib/rech",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "repository": "https://github.com/atom/rech",
+  "repository": "https://github.com/RechInformatica/rech-environment-ide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
