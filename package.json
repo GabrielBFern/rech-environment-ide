@@ -20,7 +20,14 @@
     "rech-open-this": "^0.3.0"
   },
   "package-deps": [
-    "rech-open-this"
+    "rech-open-this",
+    "busy-signal",
+    "file-watcher",
+    "intentions",
+    "language-batchfile",
+    "language-cobol",
+    "linter",
+    "linter-ui-default"
   ],
   "providedServices": {
     "linter": {
