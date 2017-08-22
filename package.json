@@ -2,7 +2,7 @@
   "name": "rech-environment-ide",
   "main": "./lib/rech",
   "version": "0.1.5",
-  "description": "A short description of your package",
+  "description": "Package for creating a IDE for development in the Rech environment. It's not supposed to work properly outside our workspace.",
   "keywords": [],
   "repository": "https://github.com/RechInformatica/rech-environment-ide",
   "license": "MIT",
@@ -27,7 +27,8 @@
     "intentions",
     "language-batchfile",
     "language-cobol",
-    "rech-open-this"
+    "rech-open-this",
+    "rech-text-manipulation"
   ],
   "providedServices": {
     "linter": {

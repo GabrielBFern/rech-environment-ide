@@ -39,6 +39,14 @@
     "ctrl-shift-k": "rech:busca-paragrafo-anterior"
     "ctrl-shift-pageup": "rech:duplica-acima"
     "ctrl-shift-pagedown": "rech:duplica-abaixo"
+  # Package rech-open-this
+    "alt-f2": "rech-open-this:same-pane"
+  # Package rech-text-manipulation
+    "ctrl-/": "rech-text-manipulation:copy-word"
+    "ctrl-?": "rech-text-manipulation:paste-over-word" # Ctrl-shift+/
+  # Remapping of default commands in Atom
+    "ctrl-alt-u": "editor:upper-case"
+    "ctrl-alt-l": "editor:lower-case"
   # Remove o Key-Binding to Ctrl+Down e Ctrl+Up, que por padrão movem uma linha para cima e para baixo, e remapeia as ações
   'atom-text-editor:not([mini])':
     'ctrl-shift-k': "unset!"
@@ -50,17 +58,15 @@
   #Move as linhas para baixo e para cima
     'ctrl-alt-pageup': 'unset!'
     'ctrl-alt-pagedown': 'unset!'
-  #Open Dialog
-  #  'ctrl-shift-o': 'fuzzy-finder:toggle-file-finder'
-  #Janela
+  # Janela
     'f6': 'pane:show-next-item'
     'f2': 'pane:show-previous-item'
     'shift-f7': 'window:reload'
-  #Book Mark
+  # Book Mark
     'alt-0': 'bookmarks:view-all'
     'alt--': 'bookmarks:clear-bookmarks'
     'shift-alt-left': 'bookmarks:toggle-bookmark'
-  #Manipula??o de linha
+  # Manipulação de linha
     'ctrl-f12': 'editor:delete-line'
     'alt-=': 'editor:toggle-line-comments'
   # Desabilita todos Ctrl+K * nativos do Atom
@@ -91,6 +97,7 @@
       "ctrl-k ctrl-7": "unset!",
       "ctrl-k ctrl-8": "unset!",
       "ctrl-k ctrl-9": "unset!"
+      "ctrl-/": "unset!"
   '.platform-win32, .platform-linux':
     'ctrl-k ctrl-b': 'unset!'
   '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
