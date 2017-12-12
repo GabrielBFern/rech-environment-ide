@@ -1,7 +1,7 @@
 {
   "name": "rech-environment-ide",
   "main": "./lib/rech",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Package for creating a IDE for development in the Rech environment. It's not supposed to work properly outside our workspace.",
   "keywords": [],
   "repository": "https://github.com/RechInformatica/rech-environment-ide",
